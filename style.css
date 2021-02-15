@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232323;
+  height: 100vh;
+  width: 100vw;
+  padding: 4px;
+}
+
+.heading {
+  color: aliceblue;
+  text-align: center;
+  margin: 1em;
+  font-size: 3rem;
+  font-family: Cinzel, "Courier New", Courier, monospace;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  height: 60%;
+  width: 60vw;
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.btn {
+  margin: 1.5em;
+  height: 50px;
+  width: 50px;
+  background: #434343;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
