@@ -115,9 +115,13 @@
   background: #ddd;
 }
 .glider-dot.active {
-  background: #a89cc8;
+  background: #545454;
 }
 @media (max-width: 36em) {
+  .glider-next,
+  .glider-prev {
+    display: none;
+  }
   .glider::-webkit-scrollbar {
     opacity: 1;
     -webkit-appearance: none;

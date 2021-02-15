@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Playfair+Display:ital@1&display=swap");
 
 * {
   margin: 0;
@@ -21,15 +21,21 @@ body {
   font-family: Cinzel, "Courier New", Courier, monospace;
 }
 
+.glider-contain {
+  width: 90% !important;
+  display: flex;
+  flex: 0 90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .card {
   background-color: rgb(255, 255, 255);
-  height: 60%;
-  width: 60vw;
   margin: 1em;
-  padding: 1em;
+  padding: 2em;
   font-size: 1.4rem;
   line-height: 1.5;
-  font-family: Montserrat, "Trebuchet MS", "Lucida Sans Unicode",
+  font-family: Playfair Display, "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 400;
   border-radius: 8px;
@@ -43,4 +49,17 @@ body {
   color: white;
   border-radius: 50%;
   padding: 5px;
+  top: 90%;
+}
+
+.problem::before {
+  content: '"';
+  margin: 0 0.2em 0 -0.2em;
+  font-size: 2rem;
+}
+
+@media (max-width: 720px) {
+  .btn {
+    display: hidden imp !important;
+  }
 }
