@@ -20,7 +20,8 @@ body {
   text-align: center;
   margin: 1em;
   font-size: 3rem;
-  font-family: Cinzel, "Courier New", Courier, monospace;
+  font-family: Cinzel, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .glider-contain {
